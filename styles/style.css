@@ -5,8 +5,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font), sans-serif;
-  font-variation-settings: "wght" var(--text-font-weight) "wght"
-    var(--watermark-fontweight);
+  font-variation-settings: "wght" var(--text-font-weight);
   background-color: var(--bg-color);
   color: var(--accent-color);
   background-image: var(--bg-image);
@@ -207,6 +206,7 @@
 
 .card__list-title {
   font-size: var(--card-text-font);
+  font-family: var(--main-font);
   font-variation-settings: "wght" var(--title-font-weight);
   align-self: flex-start;
   line-height: 22px;
